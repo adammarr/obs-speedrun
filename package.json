@@ -1,0 +1,17 @@
+{
+  "name": "speedrun",
+  "version": "1.0.0",
+  "description": "OBS Speedrun overlay",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Adam Marr",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-ws": "^5.0.2"
+  }
+}
