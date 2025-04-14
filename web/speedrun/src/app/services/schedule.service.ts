@@ -7,7 +7,7 @@ export class ScheduleService {
 
   public schedule = {
     "meta": {
-      "exported": "2025-03-13T23:44:38Z",
+      "exported": "2025-03-14T19:23:39Z",
       "api": "This is a living document and may change over time. For a stable, well-defined output, use the API instead.",
       "api-link": "/-/api/v1/schedules/2c115220cse48c7a0d"
     },
@@ -26,7 +26,7 @@ export class ScheduleService {
       "setup_t": 600,
       "theme": "cyborg",
       "secret": null,
-      "updated": "2025-03-13T23:43:12Z",
+      "updated": "2025-03-14T19:22:34Z",
       "url": "/gfh/gac25",
       "event": {
         "id": "4b50krc9b0501lb490",
@@ -68,7 +68,7 @@ export class ScheduleService {
             "Riekelt",
             "Goat Simulator 3",
             "Beat the Farmer",
-            "Cheesyboss",
+            "Novo",
             "Single run",
             "PC"
           ]
@@ -180,7 +180,7 @@ export class ScheduleService {
             "Silentmartyr",
             "Chrono Trigger",
             "New Game +",
-            "TenIQ",
+            "NineIQ",
             "Single run",
             "Super Nintendo"
           ]
@@ -194,7 +194,7 @@ export class ScheduleService {
             "Araneacharlotte",
             "Tetris The Grand Master",
             "Master Mode",
-            "TenIQ",
+            "NineIQ",
             "Single run",
             "Switch"
           ]
@@ -502,7 +502,7 @@ export class ScheduleService {
             "DBcade",
             "ドラゴンボール Sparking! ZERO",
             "Tournament of Power - Normal% - CHAT PICKS THE TEAM",
-            "NineIQ",
+            "TenIQ",
             "Bonus",
             "PlayStation 5"
           ]
@@ -516,7 +516,7 @@ export class ScheduleService {
             "casualspeedrun",
             "Bonfire Peaks",
             "Any%",
-            "NineIQ",
+            "TenIQ",
             "Single run",
             "PC"
           ]
@@ -530,7 +530,7 @@ export class ScheduleService {
             "Kefka14",
             "Smash Remix",
             "Classic (Mad Piano)",
-            "NineIQ",
+            "TenIQ",
             "Single run",
             "Nintendo 64"
           ]

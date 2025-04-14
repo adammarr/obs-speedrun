@@ -1,0 +1,14 @@
+.run-data-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    width: 100%;
+    .run-data {
+        padding: 10px 2%;
+        &.current-run {
+            background-color: #ccccff;
+        }
+    }
+}

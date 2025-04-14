@@ -1,10 +1,39 @@
 <mat-card>
   <mat-card-content>
-    <pre>{{ jsonData | json }}</pre>
+    <div class="run-data-container">
+      <div *ngFor="let item of [-1, 0, 1, 2]" class="run-data" [ngClass]="{'previous-run': item === -1, 'current-run': item === 0, 'next-run': item === 1, 'next-run2': item === 2}">
+        <div *ngIf="scheduleData[currentRun + item]">
+          <h3>{{['Previous Run', 'Current Run', 'Next Run', 'Next Run 2'][item + 1]}}</h3>
+          <p>Game: {{scheduleData[currentRun + item].data[1]}}</p>
+          <p>Runner: {{scheduleData[currentRun + item].data[0]}}</p>
+          <p>Est: {{scheduleData[currentRun + item].length}}</p>
+          <p>Category: {{scheduleData[currentRun + item].data[2]}}</p>
+          <p>Host: {{scheduleData[currentRun + item].data[3]}}</p>
+          <p>Type: {{scheduleData[currentRun + item].data[4]}}</p>
+          <p>Console: {{scheduleData[currentRun + item].data[5]}}</p>
+          <p>Start Time: {{scheduleData[currentRun + item].scheduled | date:'medium'}}</p>
+        </div>
+      </div>
+    </div>
   </mat-card-content>
   <mat-card-actions>
+    <button mat-button (click)="sync()">Sync All Data</button>
     <button mat-button (click)="previousRun()">Previous Run</button>
     <button mat-button (click)="nextRun()">Next Run</button>
-    <button mat-button (click)="startTimer()">Start Timer</button>
   </mat-card-actions>
+  <mat-card>
+    <mat-card-content>
+      <mat-form-field>
+        <mat-label>Start Timer Value</mat-label>
+        <input matInput [(ngModel)]="startTimerValue" placeholder="Enter start value Min:Sec">
+      </mat-form-field>
+      <p>Timer: {{timerValue}}</p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button (click)="startTimer()" [disabled]="timerStatus === 'Running' || timerStatus === 'Stopped'">Start</button>
+      <button mat-button (click)="stopTimer()" [disabled]="timerStatus === 'Reset' || timerStatus === 'Stopped'">Stop</button>
+      <button mat-button (click)="restartTimer()" [disabled]="timerStatus === 'Running' || timerStatus === 'Reset'">Restart</button>
+      <button mat-button (click)="resetTimer()" [disabled]="timerStatus === 'Running' || timerStatus === 'Reset'">Reset</button>
+    </mat-card-actions>
+  </mat-card>
 </mat-card>
