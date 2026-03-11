@@ -8,52 +8,118 @@ img {
     height: 1080px;
     overflow: hidden;
     position: relative;
+    font-family: "Goldman", sans-serif;
+
+    #imgdebug {
+        display: none;
+    }
+
+    // background-color: #000;
     #game {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
+
         p {
             font-size: 14px;
             color: #fff;
             margin: 0;
         }
+
         .game-name {
-            font-size: 30px;
-            color: #3b52a4;
+            font-size: 24px;
+            color: #FFF;
             font-weight: 600;
             text-shadow: 1px 1px 3px black;
             position: absolute;
-            top: 121px;
-            left: 1196px;
-        }
-        .runner-name {
-            font-size: 30px;
-            position: absolute;
-            top: 120px;
-            left: 37px;
-        }
-        .host {
-            width: 316px;
-            color: #333;
-            font-weight: 600;
-            font-size: 25px;
+            top: 542px;
+            left: 0px;
+            width: 474px;
+            height: 33px;
             text-align: center;
-            position: absolute;
-            top: 648px;
-            left: 40px;
+            text-overflow: clip;
+            overflow: hidden;
         }
+
+        .runner-name {
+            font-size: 28px;
+            font-weight: 600;
+            position: absolute;
+            top: 75px;
+            left: 61px;
+        }
+
+        .host {
+            color: #FFF;
+            font-weight: 600;
+            font-size: 20px;
+            position: absolute;
+            top: 499px;
+            left: 294px;
+            width: 176px;
+            text-overflow: clip;
+            overflow: hidden;
+        }
+
+        .category {
+            position: absolute;
+            top: 745px;
+            left: 0;
+            font-size: 24px;
+            font-weight: bold;
+            width: 474px;
+            text-align: center;
+            text-overflow: clip;
+            overflow: hidden;
+        }
+
         .est {
             position: absolute;
-            top: 121px;
-            right: 20px;
+            top: 798px;
+            left: 0;
+            font-size: 30px;
+            font-weight: 600;
+            width: 474px;
+            text-align: center;
         }
+
         .timer {
             position: absolute;
-            font-size: 40px;
-            top: 36px;
-            right: 35px;
+            font-size: 44px;
+            top: 609px;
+            left: 0px;
+            width: 474px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .couch1,
+        .couch2,
+        .couch3 {
+            color: #FFF;
+            font-weight: 600;
+            font-size: 20px;
+            position: absolute;
+            width: 176px;
+            text-overflow: clip;
+            overflow: hidden;
+        }
+
+        .couch1 {
+            top: 449px;
+            left: 54px;
+        }
+
+        .couch2 {
+            top: 449px;
+            left: 294px;
+        }
+
+        .couch3 {
+            top: 499px;
+            left: 54px;
         }
     }
 
@@ -63,46 +129,95 @@ img {
         left: 0;
         width: 100%;
         height: 100%;
+
         p {
             font-size: 14px;
             color: #fff;
             margin: 0;
         }
+
         .game-name {
             font-size: 30px;
-            color: #3b52a4;
+            color: #FFF;
             font-weight: 600;
             text-shadow: 1px 1px 3px black;
             position: absolute;
-            top: 29px;
-            left: 609px;
+            top: 501px;
+            left: 0px;
+            width: 720px;
+            height: 33px;
+            text-align: center;
         }
+
         .runner-name {
-            font-size: 30px;
+            font-size: 28px;
+            font-weight: 600;
             position: absolute;
-            top: 113px;
-            left: 37px;
+            top: 75px;
+            left: 61px;
         }
+
         .host {
-            width: 394px;
-            color: #333;
+            color: #FFF;
             font-weight: 600;
             font-size: 25px;
-            text-align: center;
             position: absolute;
-            top: 665px;
-            left: 38px;
+            top: 620px;
+            left: 423px;
         }
+
+        .category {
+            position: absolute;
+            top: 745px;
+            left: 0;
+            font-size: 24px;
+            font-weight: bold;
+            width: 720px;
+            text-align: center;
+        }
+
         .est {
             position: absolute;
-            top: 30px;
-            right: 325px;
+            top: 798px;
+            left: 0;
+            font-size: 30px;
+            font-weight: 600;
+            width: 720px;
+            text-align: center;
         }
+
         .timer {
             position: absolute;
-            font-size: 40px;
-            top: 24px;
-            right: 35px;
+            font-size: 44px;
+            top: 893px;
+            left: 0px;
+            width: 720px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .couch1,
+        .couch2,
+        .couch3 {
+            color: #FFF;
+            font-weight: 600;
+            font-size: 25px;
+            position: absolute;
+        }
+
+        .couch1 {
+            top: 559px;
+            left: 61px;
+        }
+
+        .couch2 {
+            top: 559px;
+            left: 423px;
+        }
+
+        .couch3 {
+            top: 620px;
+            left: 61px;
         }
     }
 
@@ -112,61 +227,84 @@ img {
         left: 0;
         width: 100%;
         height: 100%;
+
         p {
             font-size: 14px;
             color: #fff;
             margin: 0;
         }
-        .game-name1, .game-name2, .game-name3 {
+
+        .game-name1,
+        .game-name2,
+        .game-name3 {
             font-size: 23px;
             color: #3b52a4;
             font-weight: 600;
             text-shadow: 1px 1px 3px black;
             position: absolute;
-            top: 82px;
+            top: 67px;
             left: 267px;
         }
+
         .game-name2 {
             top: 247px;
         }
+
         .game-name3 {
-            top: 407px;
+            top: 429px;
         }
-        .runner-name1, .runner-name2, .runner-name3 {
+
+        .runner-name1,
+        .runner-name2,
+        .runner-name3 {
             font-size: 23px;
             position: absolute;
-            top: 118px;
+            top: 100px;
             left: 267px;
         }
+
         .runner-name2 {
             top: 282px;
         }
+
         .runner-name3 {
-            top: 446px;
+            top: 465px;
         }
-        .est1, .est2, .est3 {
+
+        .est1,
+        .est2,
+        .est3 {
             font-size: 20px;
             position: absolute;
-            top: 102px;
-            left: 125px;
+            top: 85px;
+            left: 47px;
+            width: 147px;
+            text-align: center;
         }
+
         .est2 {
             top: 265px;
         }
+
         .est3 {
-            top: 426px;
+            top: 445px;
         }
-        .category1, .category2, .category3 {
+
+        .category1,
+        .category2,
+        .category3 {
             position: absolute;
             font-size: 23px;
-            top: 112px;
+            top: 100px;
             right: 1051px;
         }
+
         .category2 {
             top: 282px;
         }
+
         .category3 {
-            top: 446px;
+            top: 465px;
         }
     }
 
@@ -176,11 +314,13 @@ img {
         left: 0;
         width: 100%;
         height: 100%;
+
         p {
             font-size: 14px;
             color: #fff;
             margin: 0;
         }
+
         .game-name1 {
             font-size: 32px;
             color: #3b52a4;
@@ -190,15 +330,19 @@ img {
             top: 34px;
             left: 234px;
         }
-        .runner-name1, .runner-name2 {
-            font-size: 27px;
-            position: absolute;
-            top: 729px;
-            left: 281px;
-        }
+
+        .runner-name1,
         .runner-name2 {
-            left: 1247px;
+            font-size: 36px;
+            position: absolute;
+            top: 755px;
+            left: 272px;
         }
+
+        .runner-name2 {
+            left: 1070px;
+        }
+
         .timer {
             position: absolute;
             font-size: 40px;
@@ -213,11 +357,13 @@ img {
         left: 0;
         width: 100%;
         height: 100%;
+
         p {
             font-size: 14px;
             color: #fff;
             margin: 0;
         }
+
         .game-name1 {
             font-size: 32px;
             color: #3b52a4;
@@ -227,16 +373,77 @@ img {
             top: 34px;
             left: 234px;
         }
-        .runner-name1, .runner-name2 {
+
+        .runner-name1,
+        .runner-name2 {
             font-size: 27px;
             position: absolute;
             top: 783px;
             left: 281px;
             display: none;
         }
+
         .runner-name2 {
             left: 1328px;
         }
+
+        .timer {
+            position: absolute;
+            font-size: 40px;
+            top: 34px;
+            right: 35px;
+        }
+    }
+
+    #race3 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        p {
+            font-size: 14px;
+            color: #fff;
+            margin: 0;
+        }
+
+        .game-name1 {
+            font-size: 32px;
+            color: #3b52a4;
+            font-weight: 600;
+            text-shadow: 1px 1px 3px black;
+            position: absolute;
+            top: 640px;
+            left: 1371px;
+            width: 507px;
+            text-align: center;
+        }
+
+        .host {
+            width: 216px;
+            color: #333;
+            font-weight: 600;
+            font-size: 22px;
+            text-align: center;
+            position: absolute;
+            top: 239px;
+            left: 741px;
+        }
+
+        .runner-name1,
+        .runner-name2 {
+            font-size: 27px;
+            position: absolute;
+            top: 783px;
+            left: 281px;
+            display: none;
+        }
+
+        .runner-name2 {
+            left: 1328px;
+        }
+
         .timer {
             position: absolute;
             font-size: 40px;

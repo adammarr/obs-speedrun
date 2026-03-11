@@ -1,18 +1,27 @@
 <div id="obs">
-  <img *ngIf="type === 'NOSHOW'" src="/images/4by3Race.png" alt="">
+  <img *ngIf="type === 'NOSHOW'" src="/images/2025/3player.png" alt="">
+  <img id="imgdebug" *ngIf="type != 'NOSHOW'" src="/images/2026gac/GS16x9.webp" alt="">
   <div *ngIf="type === 'game' && runData" id="game">
     <p class="game-name">{{runData.current.data[1]}}</p>
     <p class="runner-name">{{runData.current.data[0]}}</p>
     <p class="host">{{runData.current.data[3]}}</p>
+    <p class="category">{{runData.current.data[2]}} ({{runData.current.data[5]}})</p>
     <p class="est">EST: {{ (runData.current.length_t * 1000) | date:'HH:mm:ss':'UTC' }}</p>
     <p class="timer">{{timerValue}}</p>
+    <p class="couch1">{{couchInfo.host1}}</p>
+    <p class="couch2">{{couchInfo.host2}}</p>
+    <p class="couch3">{{couchInfo.host3}}</p>
   </div>
   <div *ngIf="type === 'game43' && runData" id="game43">
     <p class="game-name">{{runData.current.data[1]}}</p>
     <p class="runner-name">{{runData.current.data[0]}}</p>
     <p class="host">{{runData.current.data[3]}}</p>
+    <p class="category">{{runData.current.data[2]}} ({{runData.current.data[5]}})</p>
     <p class="est">EST: {{ (runData.current.length_t * 1000) | date:'HH:mm:ss':'UTC' }}</p>
     <p class="timer">{{timerValue}}</p>
+    <p class="couch1">{{couchInfo.host1}}</p>
+    <p class="couch2">{{couchInfo.host2}}</p>
+    <p class="couch3">{{couchInfo.host3}}</p>
   </div>
   <div *ngIf="type === 'intermission' && runData" id="intermission">
     <p class="game-name1">{{runData.current.data[1]}}</p>
@@ -36,6 +45,13 @@
   </div>
   <div *ngIf="type === 'race2' && runData" id="race2">
     <p class="game-name1">{{runData.current.data[1]}}</p>
+    <p class="runner-name1">{{runData.current.data[0].split(',')[0]}}</p>
+    <p class="runner-name2" *ngIf="runData.nextRun">{{runData.current.data[0].split(',')[1]}}</p>
+    <p class="timer">{{timerValue}}</p>
+  </div>
+  <div *ngIf="type === 'race3' && runData" id="race3">
+    <p class="game-name1">{{runData.current.data[1]}}</p>
+    <p class="host">{{runData.current.data[3]}}</p>
     <p class="runner-name1">{{runData.current.data[0].split(',')[0]}}</p>
     <p class="runner-name2" *ngIf="runData.nextRun">{{runData.current.data[0].split(',')[1]}}</p>
     <p class="timer">{{timerValue}}</p>

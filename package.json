@@ -6,12 +6,18 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "npm run dev",
+    "start:server": "node server.js",
+    "start:web": "npm --prefix web/speedrun run watch",
+    "dev": "concurrently \"npm run start:server\" \"npm run start:web\""
   },
   "author": "Adam Marr",
   "license": "MIT",
   "dependencies": {
     "express": "^4.21.2",
     "express-ws": "^5.0.2"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
   }
 }

@@ -11,12 +11,14 @@ import { AppComponent } from './app.component';
 import { AdminComponent } from './components/admin/admin.component';
 import { ObsComponent } from './components/obs/obs.component';
 import { FormsModule } from '@angular/forms';
+import { TickerComponent } from './components/ticker/ticker.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AdminComponent,
-    ObsComponent
+    ObsComponent,
+    TickerComponent
   ],
   imports: [
     BrowserModule,

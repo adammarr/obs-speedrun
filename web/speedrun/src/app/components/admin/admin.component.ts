@@ -11,6 +11,11 @@ export class AdminComponent {
   scheduleData: any;
   currentRun = 0;
   maxRun = 0;
+  tickerLines: string[] = [
+    'Welcome to Gamers Against Cancer 2026',
+    'Follow the schedule at gamersforhope.com',
+    'Thank you for supporting the runners'
+  ];
   startTimerValue: string = '';
   timer: any;
   startTime: number = 0;
@@ -37,6 +42,7 @@ export class AdminComponent {
       nextRun: this.currentRun < this.maxRun - 1 ? this.scheduleData[this.currentRun + 1] : null,
       nextRun2: this.currentRun < this.maxRun - 2 ? this.scheduleData[this.currentRun + 2] : null
     }});
+    this.publishTickerLines();
     if (this.timerStatus === 'Running') {
       this.websocketService.sendMessage({ action: 'startTimer', data: { startTime: this.startTime } });
     } else if (this.timerStatus === 'Stopped') {
@@ -44,6 +50,10 @@ export class AdminComponent {
     } else if (this.timerStatus === 'Reset') {
       this.websocketService.sendMessage({ action: 'resetTimer', data: {} });
     }
+  }
+
+  updateTickerLines(): void {
+    this.publishTickerLines();
   }
 
   previousRun(): void {
@@ -136,5 +146,9 @@ export class AdminComponent {
 
   pad(value: number): string {
     return value.toString().padStart(2, '0');
+  }
+
+  private publishTickerLines(): void {
+    this.websocketService.sendMessage({ action: 'tickerLines', data: { lines: this.tickerLines } });
   }
 }

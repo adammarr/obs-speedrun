@@ -23,6 +23,26 @@
   </mat-card-actions>
   <mat-card>
     <mat-card-content>
+      <h3>Ticker Text</h3>
+      <p>Line 1 is always generated as: Next run: [current game]</p>
+      <mat-form-field>
+        <mat-label>Ticker Line 2</mat-label>
+        <input matInput [(ngModel)]="tickerLines[0]" placeholder="Line 2">
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Ticker Line 3</mat-label>
+        <input matInput [(ngModel)]="tickerLines[1]" placeholder="Line 3">
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Ticker Line 4</mat-label>
+        <input matInput [(ngModel)]="tickerLines[2]" placeholder="Line 4">
+      </mat-form-field>
+      <button mat-button (click)="updateTickerLines()">Update Ticker Text</button>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card>
+    <mat-card-content>
       <mat-form-field>
         <mat-label>Start Timer Value</mat-label>
         <input matInput [(ngModel)]="startTimerValue" placeholder="Enter start value Min:Sec">

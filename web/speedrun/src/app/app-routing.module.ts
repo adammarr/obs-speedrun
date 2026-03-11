@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AdminComponent } from './components/admin/admin.component';
 import { ObsComponent } from './components/obs/obs.component';
+import { TickerComponent } from './components/ticker/ticker.component';
 
 const routes: Routes = [
   { path: '', component: AdminComponent },
-  { path: 'obs', component: ObsComponent }
+  { path: 'obs', component: ObsComponent },
+  { path: 'ticker', component: TickerComponent }
 ];
 
 @NgModule({

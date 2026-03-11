@@ -6,748 +6,707 @@ import { Injectable } from '@angular/core';
 export class ScheduleService {
 
   public schedule = {
-    "meta": {
-      "exported": "2025-03-14T19:23:39Z",
-      "api": "This is a living document and may change over time. For a stable, well-defined output, use the API instead.",
-      "api-link": "/-/api/v1/schedules/2c115220cse48c7a0d"
-    },
-    "schedule": {
-      "id": "2c115220cse48c7a0d",
-      "name": "Gamers Against Cancer 2025",
-      "slug": "gac25",
-      "timezone": "America/New_York",
-      "start": "2025-03-14T16:30:00-04:00",
-      "start_t": 1741984200,
-      "website": "https://www.gamersforhope.com/",
-      "twitter": null,
-      "twitch": "gfhmarathon",
-      "description": null,
-      "setup": "PT10M",
-      "setup_t": 600,
+  "meta": {
+    "exported": "2026-03-10T03:04:44Z",
+    "api": "This is a living document and may change over time. For a stable, well-defined output, use the API instead.",
+    "api-link": "/-/api/v1/schedules/4b111ge2gz531l7a01"
+  },
+  "schedule": {
+    "id": "4b111ge2gz531l7a01",
+    "name": "Gamers Against Cancer 2026",
+    "slug": "gac2026",
+    "timezone": "UTC",
+    "start": "2026-03-13T20:00:00+00:00",
+    "start_t": 1773432000,
+    "website": "https://gamersforhope.com",
+    "twitter": null,
+    "twitch": "gfhmarathon",
+    "bluesky": null,
+    "description": null,
+    "setup": "PT10M",
+    "setup_t": 600,
+    "theme": "cyborg",
+    "secret": null,
+    "updated": "2026-03-10T01:22:11Z",
+    "url": "/gfh/gac2026",
+    "event": {
+      "id": "4b50krc9b0501lb490",
+      "name": "Gamers For Hope",
+      "slug": "gfh",
       "theme": "cyborg",
-      "secret": null,
-      "updated": "2025-03-14T19:22:34Z",
-      "url": "/gfh/gac25",
-      "event": {
-        "id": "4b50krc9b0501lb490",
-        "name": "Gamers For Hope",
-        "slug": "gfh",
-        "theme": "cyborg",
-        "secret": null
+      "secret": null
+    },
+    "hidden_columns": [],
+    "columns": [
+      "Runners",
+      "Game",
+      "Category",
+      "Host",
+      "Run Type",
+      "Console"
+    ],
+    "items": [
+      {
+        "length": "PT30M",
+        "length_t": 1800,
+        "scheduled": "2026-03-13T20:00:00+00:00",
+        "scheduled_t": 1773432000,
+        "data": [
+          "Event Staff",
+          "Event Intro",
+          "Introduction%",
+          "TenIQ/Novo",
+          "Event",
+          "Other"
+        ]
       },
-      "hidden_columns": [],
-      "columns": [
-        "Runners",
-        "Game",
-        "Category",
-        "Host",
-        "Run Type",
-        "Console"
-      ],
-      "items": [
-        {
-          "length": "PT20M",
-          "length_t": 1200,
-          "scheduled": "2025-03-14T16:30:00-04:00",
-          "scheduled_t": 1741984200,
-          "data": [
-            "Event Staff",
-            "Event Intro",
-            "Intro%",
-            "Novo, TenIQ",
-            "Event",
-            "Other"
-          ]
-        },
-        {
-          "length": "PT40M",
-          "length_t": 2400,
-          "scheduled": "2025-03-14T17:00:00-04:00",
-          "scheduled_t": 1741986000,
-          "data": [
-            "Riekelt",
-            "Goat Simulator 3",
-            "Beat the Farmer",
-            "Novo",
-            "Single run",
-            "PC"
-          ]
-        },
-        {
-          "length": "PT20M",
-          "length_t": 1200,
-          "scheduled": "2025-03-14T17:50:00-04:00",
-          "scheduled_t": 1741989000,
-          "data": [
-            "Garlips",
-            "An American Tail",
-            "Any%",
-            "Deano95HD",
-            "Single run",
-            "PlayStation 2"
-          ]
-        },
-        {
-          "length": "PT1H30M",
-          "length_t": 5400,
-          "scheduled": "2025-03-14T18:20:00-04:00",
-          "scheduled_t": 1741990800,
-          "data": [
-            "Numbers",
-            "Castlevania SOTN Randomizer",
-            "Metroidvania ",
-            "Deano95HD",
-            "Single run",
-            "PlayStation"
-          ]
-        },
-        {
-          "length": "PT55M",
-          "length_t": 3300,
-          "scheduled": "2025-03-14T20:00:00-04:00",
-          "scheduled_t": 1741996800,
-          "data": [
-            "Auclairdelayn",
-            "Crash Bandicoot N. Sane Trilogy",
-            "Crash Bandicoot 1, Any% No Major Glitches",
-            "Bannasty",
-            "Single run",
-            "PC"
-          ]
-        },
-        {
-          "length": "PT1H25M",
-          "length_t": 5100,
-          "scheduled": "2025-03-14T21:05:00-04:00",
-          "scheduled_t": 1742000700,
-          "data": [
-            "Raclesis",
-            "The Quiet Man",
-            "Normal Any%",
-            "Bannasty",
-            "Single run",
-            "PC"
-          ]
-        },
-        {
-          "length": "PT30M",
-          "length_t": 1800,
-          "scheduled": "2025-03-14T22:40:00-04:00",
-          "scheduled_t": 1742006400,
-          "data": [
-            "JensJ56",
-            "Touhou Tenkuushou ~ Hidden Star in Four Seasons",
-            "Easy",
-            "Q-Tip",
-            "Bonus",
-            "PC"
-          ]
-        },
-        {
-          "length": "PT1H",
-          "length_t": 3600,
-          "scheduled": "2025-03-14T23:20:00-04:00",
-          "scheduled_t": 1742008800,
-          "data": [
-            "Universe04",
-            "Skylanders: Spyro's Adventure",
-            "Any%",
-            "Q-Tip",
-            "Single run",
-            "Wii"
-          ]
-        },
-        {
-          "length": "PT15M",
-          "length_t": 900,
-          "scheduled": "2025-03-15T00:30:00-04:00",
-          "scheduled_t": 1742013000,
-          "data": [
-            "Event Staff",
-            "Midnight Mayhem",
-            "Night 1",
-            "Novo, TenIQ",
-            "Event",
-            "Other"
-          ]
-        },
-        {
-          "length": "PT08M",
-          "length_t": 480,
-          "scheduled": "2025-03-15T00:55:00-04:00",
-          "scheduled_t": 1742014500,
-          "data": [
-            "Silentmartyr",
-            "Chrono Trigger",
-            "New Game +",
-            "NineIQ",
-            "Single run",
-            "Super Nintendo"
-          ]
-        },
-        {
-          "length": "PT20M",
-          "length_t": 1200,
-          "scheduled": "2025-03-15T01:13:00-04:00",
-          "scheduled_t": 1742015580,
-          "data": [
-            "Araneacharlotte",
-            "Tetris The Grand Master",
-            "Master Mode",
-            "NineIQ",
-            "Single run",
-            "Switch"
-          ]
-        },
-        {
-          "length": "PT1H15M",
-          "length_t": 4500,
-          "scheduled": "2025-03-15T01:43:00-04:00",
-          "scheduled_t": 1742017380,
-          "data": [
-            "Leah",
-            "Donkey Kong Country Returns",
-            "Any%",
-            "Novo",
-            "Single run",
-            "PC"
-          ]
-        },
-        {
-          "length": "PT1H55M",
-          "length_t": 6900,
-          "scheduled": "2025-03-15T03:08:00-04:00",
-          "scheduled_t": 1742022480,
-          "data": [
-            "AlolaGirly",
-            "Grand Theft Auto IV: The Lost and Damned",
-            "Any%",
-            "Novo",
-            "Single run",
-            "PC"
-          ]
-        },
-        {
-          "length": "PT55M",
-          "length_t": 3300,
-          "scheduled": "2025-03-15T05:13:00-04:00",
-          "scheduled_t": 1742029980,
-          "data": [
-            "InfinityGene",
-            "Croc: Legend of the Gobbos",
-            "Any%",
-            "SabreWolf",
-            "Single run",
-            "PlayStation"
-          ]
-        },
-        {
-          "length": "PT1H27M",
-          "length_t": 5220,
-          "scheduled": "2025-03-15T06:18:00-04:00",
-          "scheduled_t": 1742033880,
-          "data": [
-            "DanconSwitch",
-            "The Henry Stickmin Ultimate Collection",
-            "Any% All Endings",
-            "SabreWolf",
-            "Single run",
-            "PC"
-          ]
-        },
-        {
-          "length": "PT55M",
-          "length_t": 3300,
-          "scheduled": "2025-03-15T07:55:00-04:00",
-          "scheduled_t": 1742039700,
-          "data": [
-            "Kory_",
-            "Skylanders: Giants [3DS]",
-            "Any%",
-            "Subcharlie",
-            "Single run",
-            "Nintendo 3DS"
-          ]
-        },
-        {
-          "length": "PT3H30M",
-          "length_t": 12600,
-          "scheduled": "2025-03-15T09:00:00-04:00",
-          "scheduled_t": 1742043600,
-          "data": [
-            "Lotus_RT",
-            "Wario Land 3",
-            "100%",
-            "Code_Red",
-            "Single run",
-            "Game Boy Color"
-          ]
-        },
-        {
-          "length": "PT30M",
-          "length_t": 1800,
-          "scheduled": "2025-03-15T12:40:00-04:00",
-          "scheduled_t": 1742056800,
-          "data": [
-            "Purr",
-            "White Day: A Labyrinth Named School (2017)",
-            "Hee-min Any%",
-            "Subcharlie",
-            "Single run",
-            "PC"
-          ]
-        },
-        {
-          "length": "PT30M",
-          "length_t": 1800,
-          "scheduled": "2025-03-15T13:20:00-04:00",
-          "scheduled_t": 1742059200,
-          "data": [
-            "Totorruns",
-            "Super Mario 64",
-            "16 Star",
-            "Subcharlie",
-            "Single run",
-            "Wii Virtual Console"
-          ]
-        },
-        {
-          "length": "PT30M",
-          "length_t": 1800,
-          "scheduled": "2025-03-15T14:00:00-04:00",
-          "scheduled_t": 1742061600,
-          "data": [
-            "SpeedEgg",
-            "Sonic Origins",
-            "Sonic 2 (Solo Sonic)",
-            "JensJ56",
-            "Single run",
-            "PC"
-          ]
-        },
-        {
-          "length": "PT12M",
-          "length_t": 720,
-          "scheduled": "2025-03-15T14:40:00-04:00",
-          "scheduled_t": 1742064000,
-          "data": [
-            "Spectral",
-            "SegaSonic the Hedghehog",
-            "Beat the Game",
-            "JensJ56",
-            "Single run",
-            "Arcade"
-          ]
-        },
-        {
-          "length": "PT55M",
-          "length_t": 3300,
-          "scheduled": "2025-03-15T15:02:00-04:00",
-          "scheduled_t": 1742065320,
-          "data": [
-            "Leah, Drywall",
-            "Yohane the Parhelion -BLAZE in the DEEPBLUE-",
-            "Any% (60fps) Race",
-            "JensJ56",
-            "Race",
-            "PC"
-          ]
-        },
-        {
-          "length": "PT15M",
-          "length_t": 900,
-          "scheduled": "2025-03-15T16:07:00-04:00",
-          "scheduled_t": 1742069220,
-          "data": [
-            "Riekelt",
-            "Mort the Chicken",
-            "Any%",
-            "HowlinMadMike",
-            "Single run",
-            "PlayStation"
-          ]
-        },
-        {
-          "length": "PT1H05M",
-          "length_t": 3900,
-          "scheduled": "2025-03-15T16:32:00-04:00",
-          "scheduled_t": 1742070720,
-          "data": [
-            "Anti_Aaron",
-            "hard corps uprising ",
-            "sayuri blindfolded ",
-            "HowlinMadMike",
-            "Bonus",
-            "Xbox Series X"
-          ]
-        },
-        {
-          "length": "PT55M",
-          "length_t": 3300,
-          "scheduled": "2025-03-15T17:47:00-04:00",
-          "scheduled_t": 1742075220,
-          "data": [
-            "ViperUK",
-            "Monster's Inc: Scare Island",
-            "Any% (No Medal Duping)",
-            "Deano95HD",
-            "Single run",
-            "PlayStation"
-          ]
-        },
-        {
-          "length": "PT48M",
-          "length_t": 2880,
-          "scheduled": "2025-03-15T18:52:00-04:00",
-          "scheduled_t": 1742079120,
-          "data": [
-            "LinkaMeister",
-            "Metroid: Scrolls 6",
-            "100%",
-            "HowlinMadMike",
-            "Single run",
-            "Game Boy Advance"
-          ]
-        },
-        {
-          "length": "PT10M",
-          "length_t": 600,
-          "scheduled": "2025-03-15T19:50:00-04:00",
-          "scheduled_t": 1742082600,
-          "data": [
-            "Event Staff",
-            "Donation Reel!",
-            "Dono%",
-            "Novo & TenIQ",
-            "Event",
-            "PC"
-          ]
-        },
-        {
-          "length": "PT55M",
-          "length_t": 3300,
-          "scheduled": "2025-03-15T20:10:00-04:00",
-          "scheduled_t": 1742083800,
-          "data": [
-            "Draiga",
-            "F.E.A.R",
-            "Any%",
-            "Deano95HD",
-            "Single run",
-            "PC"
-          ]
-        },
-        {
-          "length": "PT2H",
-          "length_t": 7200,
-          "scheduled": "2025-03-15T21:15:00-04:00",
-          "scheduled_t": 1742087700,
-          "data": [
-            "itzpaige_",
-            "Batman Arkham Asylum",
-            "Any%",
-            "Bannasty",
-            "Single run",
-            "PC"
-          ]
-        },
-        {
-          "length": "PT30M",
-          "length_t": 1800,
-          "scheduled": "2025-03-15T23:25:00-04:00",
-          "scheduled_t": 1742095500,
-          "data": [
-            "Buildnye",
-            "Star Trek Voyager: Elite Force [Meow Mod]",
-            "Any%",
-            "Bannasty",
-            "Single run",
-            "PC"
-          ]
-        },
-        {
-          "length": "PT15M",
-          "length_t": 900,
-          "scheduled": "2025-03-16T00:05:00-04:00",
-          "scheduled_t": 1742097900,
-          "data": [
-            "Event Staff",
-            "Midnight Mayhem",
-            "Night 2",
-            "Novo, TenIQ",
-            "Event",
-            "Other"
-          ]
-        },
-        {
-          "length": "PT1H20M",
-          "length_t": 4800,
-          "scheduled": "2025-03-16T00:30:00-04:00",
-          "scheduled_t": 1742099400,
-          "data": [
-            "DerrickGnC",
-            "Breath of Fire",
-            "Deej%",
-            "Bannasty",
-            "Single run",
-            "Super Nintendo"
-          ]
-        },
-        {
-          "length": "PT15M",
-          "length_t": 900,
-          "scheduled": "2025-03-16T02:00:00-04:00",
-          "scheduled_t": 1742104800,
-          "data": [
-            "DBcade",
-            "ドラゴンボール Sparking! ZERO",
-            "Tournament of Power - Normal% - CHAT PICKS THE TEAM",
-            "TenIQ",
-            "Bonus",
-            "PlayStation 5"
-          ]
-        },
-        {
-          "length": "PT26M",
-          "length_t": 1560,
-          "scheduled": "2025-03-16T02:25:00-04:00",
-          "scheduled_t": 1742106300,
-          "data": [
-            "casualspeedrun",
-            "Bonfire Peaks",
-            "Any%",
-            "TenIQ",
-            "Single run",
-            "PC"
-          ]
-        },
-        {
-          "length": "PT11M",
-          "length_t": 660,
-          "scheduled": "2025-03-16T03:01:00-04:00",
-          "scheduled_t": 1742108460,
-          "data": [
-            "Kefka14",
-            "Smash Remix",
-            "Classic (Mad Piano)",
-            "TenIQ",
-            "Single run",
-            "Nintendo 64"
-          ]
-        },
-        {
-          "length": "PT06M",
-          "length_t": 360,
-          "scheduled": "2025-03-16T03:22:00-04:00",
-          "scheduled_t": 1742109720,
-          "data": [
-            "BlitZK, josef733",
-            "Colin McRae Rally 04 Java",
-            "MG ZR Championship",
-            "DerrickGNC",
-            "Bonus",
-            "PC"
-          ]
-        },
-        {
-          "length": "PT15M",
-          "length_t": 900,
-          "scheduled": "2025-03-16T03:38:00-04:00",
-          "scheduled_t": 1742110680,
-          "data": [
-            "BlitZK, josef733",
-            "Colin McRae Rally 04 Java",
-            "100%",
-            "DerrickGNC",
-            "Race",
-            "PC"
-          ]
-        },
-        {
-          "length": "PT37M",
-          "length_t": 2220,
-          "scheduled": "2025-03-16T04:03:00-04:00",
-          "scheduled_t": 1742112180,
-          "data": [
-            "LinkaMeister",
-            "Lenna's Inception",
-            "Sacrifice Ending (Seeded)",
-            "SixtyTheTitan",
-            "Single run",
-            "PC"
-          ]
-        },
-        {
-          "length": "PT1H15M",
-          "length_t": 4500,
-          "scheduled": "2025-03-16T04:50:00-04:00",
-          "scheduled_t": 1742115000,
-          "data": [
-            "Garlips",
-            "Gregory Horror Show",
-            "Any% Normal, Emulator",
-            "SixtyTheTitan",
-            "Single run",
-            "PlayStation 2"
-          ]
-        },
-        {
-          "length": "PT45M",
-          "length_t": 2700,
-          "scheduled": "2025-03-16T06:15:00-04:00",
-          "scheduled_t": 1742120100,
-          "data": [
-            "Deano95HD",
-            "Power Rangers Time Force",
-            "Any%",
-            "Novo",
-            "Single run",
-            "PlayStation"
-          ]
-        },
-        {
-          "length": "PT55M",
-          "length_t": 3300,
-          "scheduled": "2025-03-16T07:10:00-04:00",
-          "scheduled_t": 1742123400,
-          "data": [
-            "Draiga",
-            "Stray",
-            "Any%",
-            "Novo",
-            "Single run",
-            "PC"
-          ]
-        },
-        {
-          "length": "PT25M",
-          "length_t": 1500,
-          "scheduled": "2025-03-16T08:15:00-04:00",
-          "scheduled_t": 1742127300,
-          "data": [
-            "Deano95HD",
-            "Harry Potter and the Chamber of Secrets",
-            "Any% Debug",
-            "Novo",
-            "Single run",
-            "Game Boy Advance"
-          ]
-        },
-        {
-          "length": "PT43M",
-          "length_t": 2580,
-          "scheduled": "2025-03-16T08:50:00-04:00",
-          "scheduled_t": 1742129400,
-          "data": [
-            "UltimateF0rm",
-            "Broforce Forever",
-            "Any% Arcade Normal",
-            "Q-Tip",
-            "Single run",
-            "PC"
-          ]
-        },
-        {
-          "length": "PT30M",
-          "length_t": 1800,
-          "scheduled": "2025-03-16T09:43:00-04:00",
-          "scheduled_t": 1742132580,
-          "data": [
-            "Bannasty",
-            "Red Faction: Armageddon",
-            "Path to War",
-            "Q-Tip",
-            "Single run",
-            "PC"
-          ]
-        },
-        {
-          "length": "PT32M",
-          "length_t": 1920,
-          "scheduled": "2025-03-16T10:23:00-04:00",
-          "scheduled_t": 1742134980,
-          "data": [
-            "Labrys",
-            "Sonic Frontiers",
-            "Cyberspace Challenge (All Stages)",
-            "SabreWolf",
-            "Single run",
-            "PC"
-          ]
-        },
-        {
-          "length": "PT1H30M",
-          "length_t": 5400,
-          "scheduled": "2025-03-16T11:05:00-04:00",
-          "scheduled_t": 1742137500,
-          "data": [
-            "DerrickGnC",
-            "Chrono Trigger",
-            "Randomized Bucket List",
-            "SabreWolf",
-            "Single run",
-            "Super Nintendo"
-          ]
-        },
-        {
-          "length": "PT2H30M",
-          "length_t": 9000,
-          "scheduled": "2025-03-16T12:45:00-04:00",
-          "scheduled_t": 1742143500,
-          "data": [
-            "Shifty",
-            "Pokemon Red",
-            "Any% Glitchless Blindfolded",
-            "Subcharlie",
-            "Single run",
-            "Game Boy"
-          ]
-        },
-        {
-          "length": "PT2H",
-          "length_t": 7200,
-          "scheduled": "2025-03-16T15:25:00-04:00",
-          "scheduled_t": 1742153100,
-          "data": [
-            "kiebsgaming",
-            "The Legend of Zelda: A Link to the Past",
-            "100% NMG",
-            "HowlinMadMike",
-            "Single run",
-            "Super Nintendo"
-          ]
-        },
-        {
-          "length": "PT2H45M",
-          "length_t": 9900,
-          "scheduled": "2025-03-16T17:35:00-04:00",
-          "scheduled_t": 1742160900,
-          "data": [
-            "Cid, Jefe01, Lunarchimera, Numbers, Jexvrok, Ceresrose",
-            "Final Fantasy VI: Worlds Collide",
-            "Super Ball Relay",
-            "DrinksGlue",
-            "Race",
-            "Super Nintendo"
-          ]
-        },
-        {
-          "length": "PT20M",
-          "length_t": 1200,
-          "scheduled": "2025-03-16T20:30:00-04:00",
-          "scheduled_t": 1742171400,
-          "data": [
-            "Event Staff",
-            "Event ending ",
-            "Ending%",
-            "Novo, TenIQ",
-            "Event",
-            "Other"
-          ]
-        }
-      ]
-    }
-  };
+      {
+        "length": "PT20M",
+        "length_t": 1200,
+        "scheduled": "2026-03-13T20:40:00+00:00",
+        "scheduled_t": 1773434400,
+        "data": [
+          "ExclamationMarkYT",
+          "Cuphead",
+          "DLC Any%",
+          "Novo",
+          "Single Run",
+          "PC"
+        ]
+      },
+      {
+        "length": "PT1H",
+        "length_t": 3600,
+        "scheduled": "2026-03-13T21:10:00+00:00",
+        "scheduled_t": 1773436200,
+        "data": [
+          "ItzPaige_",
+          "Job Simulator",
+          "All Jobs",
+          "Novo",
+          "Single Run",
+          "PS5"
+        ]
+      },
+      {
+        "length": "PT24M",
+        "length_t": 1440,
+        "scheduled": "2026-03-13T22:20:00+00:00",
+        "scheduled_t": 1773440400,
+        "data": [
+          "juesto",
+          "LEGO Builders Journey",
+          "Robot's Adventure Any%",
+          "Bannasty",
+          "Single Run",
+          "PC"
+        ]
+      },
+      {
+        "length": "PT26M",
+        "length_t": 1560,
+        "scheduled": "2026-03-13T22:54:00+00:00",
+        "scheduled_t": 1773442440,
+        "data": [
+          "HammerKick",
+          "Unicorn Overlord",
+          "Any% Story",
+          "Bannasty",
+          "Single Run",
+          "Switch 2"
+        ]
+      },
+      {
+        "length": "PT25M",
+        "length_t": 1500,
+        "scheduled": "2026-03-13T23:30:00+00:00",
+        "scheduled_t": 1773444600,
+        "data": [
+          "buildnye",
+          "Elite Force [Meow Mod]",
+          "Any%",
+          "Bannasty",
+          "Bonus",
+          "PC"
+        ]
+      },
+      {
+        "length": "PT5H30M",
+        "length_t": 19800,
+        "scheduled": "2026-03-14T00:05:00+00:00",
+        "scheduled_t": 1773446700,
+        "data": [
+          "KingXavier & DerrickGNC & kiebsgaming",
+          "Archipelago",
+          "Ty The Tasmanian Tiger",
+          "novo",
+          "Co-op",
+          "PC"
+        ]
+      },
+      {
+        "length": "PT10M",
+        "length_t": 600,
+        "scheduled": "2026-03-14T05:45:00+00:00",
+        "scheduled_t": 1773467100,
+        "data": [
+          "Event Staff",
+          "Midnight Mayhem",
+          "Night 1",
+          "Howlin_Mad_Mike",
+          "Event",
+          "Other"
+        ]
+      },
+      {
+        "length": "PT45M",
+        "length_t": 2700,
+        "scheduled": "2026-03-14T06:05:00+00:00",
+        "scheduled_t": 1773468300,
+        "data": [
+          "BlitZK & Josef733",
+          "Colin McRae Rally (2013)",
+          "Greece Rally Series",
+          "Howlin_Mad_Mike",
+          "Race",
+          "PC"
+        ]
+      },
+      {
+        "length": "PT3H45M",
+        "length_t": 13500,
+        "scheduled": "2026-03-14T07:00:00+00:00",
+        "scheduled_t": 1773471600,
+        "data": [
+          "Mathias4595",
+          "Skylanders: Sypro's Adventure",
+          "100%",
+          "propokenoob",
+          "Single Run",
+          "PS3"
+        ]
+      },
+      {
+        "length": "PT37M",
+        "length_t": 2220,
+        "scheduled": "2026-03-14T10:55:00+00:00",
+        "scheduled_t": 1773485700,
+        "data": [
+          "Clagnarok",
+          "Neopets: The Darkest Faerie",
+          "Any% No Cloak (NOAK)",
+          "Sabre Wolf",
+          "Single Run",
+          "PS2"
+        ]
+      },
+      {
+        "length": "PT35M",
+        "length_t": 2100,
+        "scheduled": "2026-03-14T11:42:00+00:00",
+        "scheduled_t": 1773488520,
+        "data": [
+          "pbb8",
+          "Ollie-Oop",
+          "All Missions",
+          "Sabre Wolf",
+          "Single Run",
+          "PC"
+        ]
+      },
+      {
+        "length": "PT2H30M",
+        "length_t": 9000,
+        "scheduled": "2026-03-14T12:27:00+00:00",
+        "scheduled_t": 1773491220,
+        "data": [
+          "onefreefitz",
+          "Secret of Mana Randomizer",
+          "Co-Op Vanilla Long",
+          "btf_flotsam_imareelbuoy",
+          "Single Run",
+          "Super Nintendo"
+        ]
+      },
+      {
+        "length": "PT1H30M",
+        "length_t": 5400,
+        "scheduled": "2026-03-14T15:07:00+00:00",
+        "scheduled_t": 1773500820,
+        "data": [
+          "Kiebsgaming",
+          "The Legend Of Zelda: A Link To The Past",
+          "Glitched Randomizer",
+          "celestrick",
+          "Single Run",
+          "Super Nintendo"
+        ]
+      },
+      {
+        "length": "PT40M",
+        "length_t": 2400,
+        "scheduled": "2026-03-14T16:47:00+00:00",
+        "scheduled_t": 1773506820,
+        "data": [
+          "Spectral",
+          "Mr. Bones",
+          "Any%",
+          "celestrick",
+          "Single Run",
+          "Sega Saturn"
+        ]
+      },
+      {
+        "length": "PT50M",
+        "length_t": 3000,
+        "scheduled": "2026-03-14T17:37:00+00:00",
+        "scheduled_t": 1773509820,
+        "data": [
+          "Rocher",
+          "Legend of Kay Anniversary",
+          "Any% RLC",
+          "celestrick",
+          "Single Run",
+          "PC"
+        ]
+      },
+      {
+        "length": "PT32M",
+        "length_t": 1920,
+        "scheduled": "2026-03-14T18:37:00+00:00",
+        "scheduled_t": 1773513420,
+        "data": [
+          "juesto",
+          "Flower",
+          "Any%",
+          "Cheesyboss",
+          "Single Run",
+          "PC"
+        ]
+      },
+      {
+        "length": "PT10M",
+        "length_t": 600,
+        "scheduled": "2026-03-14T19:19:00+00:00",
+        "scheduled_t": 1773515940,
+        "data": [
+          "SilentMartyr",
+          "Chrono Trigger",
+          "New Game+",
+          "Cheesyboss",
+          "Bonus",
+          "Super Famicom"
+        ]
+      },
+      {
+        "length": "PT12M",
+        "length_t": 720,
+        "scheduled": "2026-03-14T19:39:00+00:00",
+        "scheduled_t": 1773517140,
+        "data": [
+          "ItzPaige_",
+          "PRAGMATA Sketchbook Demo",
+          "Any%",
+          "Cheesyboss",
+          "Single Run",
+          "PS5"
+        ]
+      },
+      {
+        "length": "PT42M",
+        "length_t": 2520,
+        "scheduled": "2026-03-14T20:01:00+00:00",
+        "scheduled_t": 1773518460,
+        "data": [
+          "auclairdelalyn",
+          "Donut County",
+          "Beat The Game",
+          "itzpaige__",
+          "Single Run",
+          "PC"
+        ]
+      },
+      {
+        "length": "PT25M",
+        "length_t": 1500,
+        "scheduled": "2026-03-14T20:53:00+00:00",
+        "scheduled_t": 1773521580,
+        "data": [
+          "auclairdelalyn",
+          "Hyperbolica",
+          "Any%",
+          "itzpaige__",
+          "Single Run",
+          "PC"
+        ]
+      },
+      {
+        "length": "PT1H13M",
+        "length_t": 4380,
+        "scheduled": "2026-03-14T21:28:00+00:00",
+        "scheduled_t": 1773523680,
+        "data": [
+          "ILikeBaguette25",
+          "Duck Life Battle",
+          "Glitchless",
+          "itzpaige__",
+          "Single Run",
+          "PC"
+        ]
+      },
+      {
+        "length": "PT3H40M",
+        "length_t": 13200,
+        "scheduled": "2026-03-14T22:51:00+00:00",
+        "scheduled_t": 1773528660,
+        "data": [
+          "ProPokeNoob",
+          "Pokémon Crystal",
+          "Catch 'Em All Tetris Randomizer",
+          "TenIQ",
+          "Single Run",
+          "Game Boy Color"
+        ]
+      },
+      {
+        "length": "PT23M",
+        "length_t": 1380,
+        "scheduled": "2026-03-15T02:41:00+00:00",
+        "scheduled_t": 1773542460,
+        "data": [
+          "Celestrick",
+          "The Legend of Zelda: Breath Of The Wild",
+          "Great Plateau Any%",
+          "ufors",
+          "Single Run",
+          "SwitchOLED"
+        ]
+      },
+      {
+        "length": "PT30M",
+        "length_t": 1800,
+        "scheduled": "2026-03-15T03:14:00+00:00",
+        "scheduled_t": 1773544440,
+        "data": [
+          "organMike",
+          "Planet Diver",
+          "Centauri Any%",
+          "ufors",
+          "Single Run",
+          "PC"
+        ]
+      },
+      {
+        "length": "PT35M",
+        "length_t": 2100,
+        "scheduled": "2026-03-15T03:54:00+00:00",
+        "scheduled_t": 1773546840,
+        "data": [
+          "Howlin_Mad_Mike",
+          "Prince  of Persia",
+          "Any%",
+          "ufors",
+          "Single Run",
+          "MS-DOS"
+        ]
+      },
+      {
+        "length": "PT10M",
+        "length_t": 600,
+        "scheduled": "2026-03-15T04:39:00+00:00",
+        "scheduled_t": 1773549540,
+        "data": [
+          "Event Staff",
+          "Midnight Mayhem",
+          "Night 2",
+          "Howlin_Mad_Mike",
+          "Event",
+          "Other"
+        ]
+      },
+      {
+        "length": "PT18M",
+        "length_t": 1080,
+        "scheduled": "2026-03-15T04:59:00+00:00",
+        "scheduled_t": 1773550740,
+        "data": [
+          "King Xavier",
+          "The Elephant Collection",
+          "This Is The Only Level Trifecta",
+          "Sabre Wolf",
+          "Single Run",
+          "PC"
+        ]
+      },
+      {
+        "length": "PT20M",
+        "length_t": 1200,
+        "scheduled": "2026-03-15T05:27:00+00:00",
+        "scheduled_t": 1773552420,
+        "data": [
+          "DBcade",
+          "The King of Fighters 96",
+          "Team Play Level 1",
+          "Sabre Wolf",
+          "Single Run",
+          "Arcade"
+        ]
+      },
+      {
+        "length": "PT35M",
+        "length_t": 2100,
+        "scheduled": "2026-03-15T05:57:00+00:00",
+        "scheduled_t": 1773554220,
+        "data": [
+          "King Xavier",
+          "World of Warcraft",
+          "Exile's Reach Starting Zone",
+          "Sabre Wolf",
+          "Single Run",
+          "PC"
+        ]
+      },
+      {
+        "length": "PT25M",
+        "length_t": 1500,
+        "scheduled": "2026-03-15T06:42:00+00:00",
+        "scheduled_t": 1773556920,
+        "data": [
+          "DBcade",
+          "戦国無双2: EMPIRES - Samurai Warriors 2 Empires",
+          "Unification of Kanto 1561 - Normal% (New Data)",
+          "Sabre Wolf",
+          "Single Run",
+          "PS2"
+        ]
+      },
+      {
+        "length": "PT36M",
+        "length_t": 2160,
+        "scheduled": "2026-03-15T07:17:00+00:00",
+        "scheduled_t": 1773559020,
+        "data": [
+          "LinkaMeister",
+          "Super Metroid: Rise",
+          "32%",
+          "JigDorg07",
+          "Single Run",
+          "Super Nintendo"
+        ]
+      },
+      {
+        "length": "PT50M",
+        "length_t": 3000,
+        "scheduled": "2026-03-15T08:03:00+00:00",
+        "scheduled_t": 1773561780,
+        "data": [
+          "ItsBringr",
+          "Project Zomboid",
+          "Tailoring%",
+          "JigDorg07",
+          "Single Run",
+          "PC"
+        ]
+      },
+      {
+        "length": "PT37M",
+        "length_t": 2220,
+        "scheduled": "2026-03-15T09:03:00+00:00",
+        "scheduled_t": 1773565380,
+        "data": [
+          "LinkaMeister",
+          "Junkoid",
+          "100%",
+          "propokenoob",
+          "Single Run",
+          "Super Nintendo"
+        ]
+      },
+      {
+        "length": "PT1H15M",
+        "length_t": 4500,
+        "scheduled": "2026-03-15T09:50:00+00:00",
+        "scheduled_t": 1773568200,
+        "data": [
+          "Virtual QSO",
+          "Crash Team Racing Nitro Fueled",
+          "Any%",
+          "propokenoob",
+          "Single Run",
+          "Switch 2"
+        ]
+      },
+      {
+        "length": "PT1H15M",
+        "length_t": 4500,
+        "scheduled": "2026-03-15T11:15:00+00:00",
+        "scheduled_t": 1773573300,
+        "data": [
+          "organMike",
+          "Sentinels of The Multiverse",
+          "Base Set Any%",
+          "bannasty",
+          "Single Run",
+          "Android"
+        ]
+      },
+      {
+        "length": "PT1H10M",
+        "length_t": 4200,
+        "scheduled": "2026-03-15T12:40:00+00:00",
+        "scheduled_t": 1773578400,
+        "data": [
+          "auclairdelalyn",
+          "What The Car",
+          "Any%",
+          "bannasty",
+          "Single Run",
+          "PC"
+        ]
+      },
+      {
+        "length": "PT41M",
+        "length_t": 2460,
+        "scheduled": "2026-03-15T14:00:00+00:00",
+        "scheduled_t": 1773583200,
+        "data": [
+          "Soulcloset2",
+          "Barbie Horse Trails",
+          "Any%",
+          "btf_flotsam_imareelbuoy",
+          "Single Run",
+          "PC"
+        ]
+      },
+      {
+        "length": "PT09M",
+        "length_t": 540,
+        "scheduled": "2026-03-15T14:51:00+00:00",
+        "scheduled_t": 1773586260,
+        "data": [
+          "itzpaige__",
+          "The Last Of Us: Left Behind",
+          "Any%",
+          "btf_flotsam_imareelbuoy",
+          "Bonus",
+          "PS5"
+        ]
+      },
+      {
+        "length": "PT05M",
+        "length_t": 300,
+        "scheduled": "2026-03-15T15:10:00+00:00",
+        "scheduled_t": 1773587400,
+        "data": [
+          "Event Staff",
+          "Special Event",
+          "Donation Reel",
+          "Event Staff",
+          "Event",
+          "N/A"
+        ]
+      },
+      {
+        "length": "PT25M",
+        "length_t": 1500,
+        "scheduled": "2026-03-15T15:25:00+00:00",
+        "scheduled_t": 1773588300,
+        "data": [
+          "pbb8",
+          "Bad Way",
+          "Any% (No Torch Zip)",
+          "ufors",
+          "Single Run",
+          "PC"
+        ]
+      },
+      {
+        "length": "PT1H10M",
+        "length_t": 4200,
+        "scheduled": "2026-03-15T16:00:00+00:00",
+        "scheduled_t": 1773590400,
+        "data": [
+          "Rocher",
+          "MIO: Memories in Orbit",
+          "Any% Ati Ending",
+          "ufors",
+          "Single Run",
+          "PC"
+        ]
+      },
+      {
+        "length": "PT32M",
+        "length_t": 1920,
+        "scheduled": "2026-03-15T17:20:00+00:00",
+        "scheduled_t": 1773595200,
+        "data": [
+          "buildnye",
+          "Jedi Academy",
+          "Any% No SL No VRGI",
+          "JigDorg07",
+          "Single Run",
+          "PC"
+        ]
+      },
+      {
+        "length": "PT35M",
+        "length_t": 2100,
+        "scheduled": "2026-03-15T18:02:00+00:00",
+        "scheduled_t": 1773597720,
+        "data": [
+          "craZy_y0",
+          "New Super Luigi U",
+          "Any% (Normal)",
+          "JigDorg07",
+          "Single Run",
+          "Wii U"
+        ]
+      },
+      {
+        "length": "PT1H35M",
+        "length_t": 5700,
+        "scheduled": "2026-03-15T18:47:00+00:00",
+        "scheduled_t": 1773600420,
+        "data": [
+          "Lyon",
+          "Halo 2 Anniversary",
+          "Legendary",
+          "celestrick",
+          "Single Run",
+          "PC"
+        ]
+      },
+      {
+        "length": "PT2H45M",
+        "length_t": 9900,
+        "scheduled": "2026-03-15T20:32:00+00:00",
+        "scheduled_t": 1773606720,
+        "data": [
+          "?????",
+          "Mystery Run",
+          "????",
+          "Sabre Wolf",
+          "Bonus",
+          "????"
+        ]
+      },
+      {
+        "length": "PT20M",
+        "length_t": 1200,
+        "scheduled": "2026-03-15T23:27:00+00:00",
+        "scheduled_t": 1773617220,
+        "data": [
+          "TenIQ",
+          "Event Ending",
+          "100%",
+          "Event Staff",
+          "Event",
+          "N/A"
+        ]
+      }
+    ]
+  }
+};
 
 
   constructor() { }
